@@ -6,4 +6,5 @@ Right Light (D4): Functions similarly to the left light, activated by button S2,
 
 Emergency Lights: Activated by button S3, causing both directional lights to flash simultaneously indefinitely, indicating an emergency situation. The emergency lights are deactivated if either directional button is pressed.
 
-The system includes a UART interface that sends messages to the computer when the buttons are pressed, providing real-time feedback. The lights flash at a frequency of 2 Hz (250 ms per cycle), and the code uses a circular buffer to handle efficient UART communication.
+The system includes a UART interface that sends messages to the computer when the buttons are pressed, providing real-time feedback. The lights flash at a frequency of 2 Hz (250 ms per cycle), and the code uses a circular buffer to handle efficient UART communication .
+
